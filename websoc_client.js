@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// node Version runs in Ubuntu
+// sudo apt install nodejs
+// requires npm install websocket
+// Tomorrow's websocket (c) 2022 for BSU Level 6 CC
+
 var WebSocketClient = require('websocket').client;
 
 var client = new WebSocketClient();
