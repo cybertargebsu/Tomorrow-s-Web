@@ -31,4 +31,4 @@ client.on('connect', function(connection) {
     sendNumber();
 });
 
-client.connect('ws://<<INSERT SERVER ADDRESS>>’, 'echo-protocol');
+client.connect('ws://<<INSERT SERVER ADDRESS>>’, '');
