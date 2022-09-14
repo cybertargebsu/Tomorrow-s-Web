@@ -1,5 +1,19 @@
 #!/usr/bin/env node
 
+// To ensure your server is ready to install packages you need to
+// sudo apt clean
+// sudo apt update
+// sudo apt upgrade -y
+
+
+// We need to ensure you have installed the following
+// sudo apt install nodejs
+// sudo apy install npm
+// sudo npm install websockets
+// 
+// You also need to set the permissions of this file using sudo chmod 700 <<filename>>
+
+
 var WebSocketServer = require('websocket').server;
 var http = require('http');
 
