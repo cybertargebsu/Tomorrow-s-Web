@@ -8,7 +8,7 @@
 
 // We need to ensure you have installed the following
 // sudo apt install nodejs
-// sudo apy install npm
+// sudo apt install npm
 // sudo npm install websockets
 // 
 // You also need to set the permissions of this file using sudo chmod 700 <<filename>>
